@@ -98,6 +98,20 @@ Customer-Churn-Prediction/
 
 ---
 
+## Results
+
+The performance of multiple machine learning models was evaluated on the test dataset.
+
+| Model | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
+|-------|---------:|----------:|--------:|---------:|---------:|
+| Logistic Regression | **82.19%** | 68.71% | **60.05%** | **64.09%** | **0.7510** |
+| Ridge Classifier | **82.40%** | **70.76%** | 57.10% | 63.20% | 0.7431 |
+| SVC | 81.05% | 69.92% | 49.87% | 58.22% | 0.7107 |
+| Random Forest | 80.77% | 68.75% | 50.13% | 57.98% | 0.7096 |
+| XGBoost | 78.57% | 62.12% | 48.79% | 54.65% | 0.6904 |
+
+**Best Overall Model:** Logistic Regression achieved the best balance between Accuracy, F1-Score, and ROC-AUC, making it the most suitable model for this customer churn prediction task.
+
 ## Future Improvements
 
 - Deploy the model using Streamlit or Flask
