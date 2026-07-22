@@ -107,6 +107,15 @@ Customer-Churn-Prediction/
 
 ---
 
+## Conclusion
+
+- Built an end-to-end machine learning pipeline to predict customer churn.
+- Performed data cleaning, preprocessing, feature encoding, and feature scaling.
+- Trained and evaluated multiple classification models, including Logistic Regression, Ridge, Lasso, Random Forest, SVM, and XGBoost.
+- Applied RandomizedSearchCV for hyperparameter tuning to improve model performance.
+- Evaluated the models using Accuracy, ROC-AUC, ROC Curve, Classification Report, and Confusion Matrix.
+- This project demonstrates how machine learning can help telecom companies identify customers who are likely to churn and support customer retention strategies.
+
 ## Author
 
 **Nive**
